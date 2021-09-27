@@ -536,6 +536,7 @@ class ComposerStaticInit7b18da2a6baca2c73b15106daaf48113
         'App\\Models\\fee_type' => __DIR__ . '/../..' . '/app/Models/fee_type.php',
         'App\\Models\\financialTrans' => __DIR__ . '/../..' . '/app/Models/financialTrans.php',
         'App\\Models\\financialTransDetails' => __DIR__ . '/../..' . '/app/Models/financialTransDetails.php',
+        'App\\Models\\module' => __DIR__ . '/../..' . '/app/Models/module.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',

@@ -26,6 +26,7 @@ return array(
     'App\\Models\\fee_type' => $baseDir . '/app/Models/fee_type.php',
     'App\\Models\\financialTrans' => $baseDir . '/app/Models/financialTrans.php',
     'App\\Models\\financialTransDetails' => $baseDir . '/app/Models/financialTransDetails.php',
+    'App\\Models\\module' => $baseDir . '/app/Models/module.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',
