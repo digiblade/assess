@@ -531,6 +531,7 @@ class ComposerStaticInit7b18da2a6baca2c73b15106daaf48113
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Models\\Branch' => __DIR__ . '/../..' . '/app/Models/Branch.php',
         'App\\Models\\ExportModel' => __DIR__ . '/../..' . '/app/Models/ExportModel.php',
+        'App\\Models\\FeeCollectionType' => __DIR__ . '/../..' . '/app/Models/FeeCollectionType.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\fee_category' => __DIR__ . '/../..' . '/app/Models/fee_category.php',
         'App\\Models\\fee_type' => __DIR__ . '/../..' . '/app/Models/fee_type.php',
