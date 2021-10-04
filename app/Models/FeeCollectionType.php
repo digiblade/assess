@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class FeeCollectionType extends Model
 {
     use HasFactory;
+    protected $table = "fee_collection_types";
 }

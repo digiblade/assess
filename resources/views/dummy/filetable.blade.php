@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{url()}}/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="{{url('')}}/assets/css/bootstrap.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
                 <tr>
                     <th scope="row">{{$data->firstItem() + $loop->index}}</th>
                     <td>{{$d->file_name}}</td>
-                    <td><a class="btn btn-primary" href="./startimport/{{$d->id}}">Import</a></td>
+                    <td><a class="btn btn-primary" href="{{url('')}}/dummy/startimport/{{$d->id}}">Import</a></td>
                   </tr>
 
             @endforeach

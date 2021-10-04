@@ -9,5 +9,16 @@ class CommonFeeCollection extends Model
 {
     use HasFactory;
     protected $table = "common_fee_collections";
-    protected $fillable = array('*');
+    protected $fillable = [
+        "module_id",
+        "trans_id",
+        "admno",
+        "rollno",
+        "amount",
+        "brid",
+        "academicyear",
+        "financialyear",
+        "displayreceiptno",
+        "collection_totalpaidamount",
+    ];
 }
