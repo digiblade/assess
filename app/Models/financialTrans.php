@@ -18,7 +18,8 @@ class financialTrans extends Model
         'fee_category_id',
         'branch_id',
         'fee_type_id',
-        'trans_receipt'
+        'trans_receipt',
+        // 'entry_mode'
 
     ];
 }

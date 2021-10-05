@@ -23,6 +23,7 @@ class financialTransDetails extends Model
         "detail_refund_amount",
         "detail_fund_tranCfer_amount",
         "detail_remark",
+        "entry_mode",
     ];
     public function getHead()
     {
