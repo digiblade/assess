@@ -30,3 +30,4 @@ Route::get('/dummy/viewfiles', [dummy::class, "getImportFiles"]);
 Route::get('/dummy/startimport/{fileid}', [dummy::class, "importData"]);
 Route::post('/dummy/submit', [dummy::class, "getCsv"]);
 Route::get('/dummy/view', [dummy::class, "viewTable"]);
+Route::get('dummy/update',[dummy::class,"UpdateValue"]);

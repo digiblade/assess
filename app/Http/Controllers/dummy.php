@@ -108,7 +108,8 @@ class dummy extends Controller
     }
     public function storeBranch($data)
     {
-        $nData = array_slice($data, 1, count($data));
+        $fdata = financialTransDetails::get();
+        $nData = array_slice($data, count($fdata), count($data));
         foreach ($nData as $res) {
             // print_r($res[11]);
             Branch::firstOrCreate(['branch_name' => $res[11]]);
@@ -279,6 +280,10 @@ class dummy extends Controller
             );
             CommonFeeCollection::where("id", "=", $res->id)->update($input);
         }
+    }
+    public function UpdateValue(){
+        $this->storeFinancialTransDetails(array());
+        $this->storeCommonFeeHeadWise(array());
     }
     public function viewTable()
     {
